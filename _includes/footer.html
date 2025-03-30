@@ -1,0 +1,48 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col about-col">
+                <div class="footer-logo">
+                    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}" width="40" height="40">
+                    <h3>{{ site.title }}</h3>
+                </div>
+                <p>Specialized psychiatric care with expertise in addiction medicine and mental health disorders.</p>
+                <div class="footer-social">
+                    {% if site.social.facebook %}
+                    <a href="{{ site.social.facebook }}" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social.twitter %}
+                    <a href="{{ site.social.twitter }}" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social.linkedin %}
+                    <a href="{{ site.social.linkedin }}" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social.instagram %}
+                    <a href="{{ site.social.instagram }}" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> {{ site.address }}</li>
+                    <li><i class="fas fa-phone-alt"></i> {{ site.phone }}</li>
+                    <li><i class="fas fa-envelope"></i> {{ site.email }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer> 

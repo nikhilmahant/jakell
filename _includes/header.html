@@ -1,0 +1,52 @@
+<header class="site-header">
+    <nav class="navbar">
+        <div class="container">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}" width="40" height="40">
+                <div class="logo-text">
+                    <h1>{{ site.title }}</h1>
+                    <p>MD Psychiatry, DM in Addiction Psychiatry</p>
+                </div>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#appointment" class="nav-link">Appointments</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="mobile-contact-info">
+                    <div class="mobile-contact-items">
+                        <a href="tel:{{ site.phone }}" class="mobile-contact-link">
+                            <i class="fas fa-phone-alt"></i> Call Us
+                        </a>
+                        <a href="mailto:{{ site.email }}" class="mobile-contact-link">
+                            <i class="fas fa-envelope"></i> Email Us
+                        </a>
+                        <div class="mobile-social-links">
+                            {% if site.social.facebook %}
+                            <a href="{{ site.social.facebook }}" aria-label="Facebook" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            {% endif %}
+                            {% if site.social.twitter %}
+                            <a href="{{ site.social.twitter }}" aria-label="Twitter" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            {% endif %}
+                            {% if site.social.linkedin %}
+                            <a href="{{ site.social.linkedin }}" aria-label="LinkedIn" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header> 

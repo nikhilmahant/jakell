@@ -1,0 +1,41 @@
+title: Dr. Sudheendra Huddar
+description: Psychiatry Specialist in Hubli
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+
+# Site settings
+author: Dr. Sudheendra Huddar
+email: dr.sudheendra@example.com
+phone: +91 9876543210
+address: Gandharva Hall, Shop no 17 & 18, Ground Floor, Ramdhoot Apartment Complex, opposite Sawai, beside Hero Showroom, Deshpande Nagar, Hubballi, Karnataka 580029
+
+# Social media
+social:
+  facebook: https://facebook.com/drsudheendra
+  twitter: https://twitter.com/drsudheendra
+  linkedin: https://linkedin.com/in/drsudheendra
+  instagram: https://instagram.com/drsudheendra
+
+# Clinic hours
+clinic_hours:
+  - day: Monday - Friday
+    hours: 9:00 AM - 5:00 PM
+  - day: Saturday
+    hours: 9:00 AM - 1:00 PM
+  - day: Sunday
+    hours: Closed 

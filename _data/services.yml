@@ -1,0 +1,23 @@
+- title: Depressive Disorders
+  icon: fas fa-brain
+  description: Diagnosis and treatment of major depressive disorder and related conditions
+
+- title: Addiction Psychiatry
+  icon: fas fa-pills
+  description: Specialized care for substance abuse and behavioral addictions
+
+- title: Sleep Disorders
+  icon: fas fa-bed
+  description: Treatment for insomnia, sleep apnea, and other sleep-related issues
+
+- title: Bipolar Disorder
+  icon: fas fa-project-diagram
+  description: Management of bipolar I and II disorders
+
+- title: Schizophrenia
+  icon: fas fa-head-side-virus
+  description: Comprehensive care for schizophrenia spectrum disorders
+
+- title: Adult ADHD
+  icon: fas fa-heartbeat
+  description: Diagnosis and management of attention deficit hyperactivity disorder 
